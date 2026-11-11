@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# C++ / CUDA builds
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.cubin
+*.ptx
+
+# Editors
+.vscode/
+.idea/
+
+# Experiments and generated data
+outputs/
+results/
+logs/
+*.prof
+*.nsys-rep
+*.ncu-rep
+
+# OS
+.DS_Store
+Thumbs.db
